@@ -10,7 +10,7 @@
     "db:migrate-sqlite": "node --env-file=.env scripts/migrate-sqlite-to-postgres.js"
   },
   "engines": {
-    "node": ">=20.6"
+    "node": ">=22.x"
   },
   "dependencies": {
     "express": "^4.19.2",
