@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+node_modules/
+harbor.db
+harbor.db-shm
+harbor.db-wal
+*.log
+.DS_Store
