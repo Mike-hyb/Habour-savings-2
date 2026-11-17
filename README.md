@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Harbor Savings & Loan — PostgreSQL / Vercel build
 
 This version replaces the local SQLite runtime database with Neon PostgreSQL and adapts the Express application for Vercel serverless deployment. The existing frontend, email MFA flow, password hashing, role checks, rate limits, session cookies, encrypted fields, and application routes are retained.
@@ -98,3 +99,6 @@ Do not place secrets in frontend files, GitHub, screenshots, or chat messages. I
 - Vercel's serverless runtime and Neon connection behavior must be verified after deployment. The database pool is intentionally kept small for serverless use.
 - Resend's test sender is not a production sender for arbitrary users. Verify a sending domain before public use.
 - This is an educational demonstration application, not a production banking platform. Do not use real customer funds or sensitive financial data.
+=======
+# Habour-savings-2
+>>>>>>> b4f52c7f1df88aa6e76a58d9ce7cfeaab0341f60
